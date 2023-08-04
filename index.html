@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter</title>
+</head>
+
+<body>
+  <!--*MAIN SECTION-->
+  <section class="main__container">
+
+    <div class="main__container__images">
+      <picture>
+        <source srcset="./assets/images/illustration-sign-up-desktop.svg" media="(min-width: 1440px)">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+      </picture>
+    </div>
+
+    <div class="main__container__content">
+      <!--*MAIN TEXTS-->
+      <div class="main__container__texts">
+        <h1 class="main__container__texts__title">Stay updated!</h1>
+        <p class="main__container__texts__paragraph">Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+
+      <!--*MAIN LIST-->
+      <div class="main__container__list">
+        <ul class="main__list__items">
+          <li class="main__list__items__content">Product
+            discovery and building what matters</li>
+          <li class="main__list__items__content">Measuring to ensure updates are a success</li>
+          <li class="main__list__items__content">And much more!</li>
+        </ul>
+      </div>
+
+      <!--*NEWS-LETTER FORM-->
+      <div class="main__container__newsletter">
+        <form action="" method="post" id="formNews">
+          <div class="main__container__newsletter__form">
+            <div class="main__container__news__form__texts">
+              <label for="email">Email address</label>
+              <p class="main__container__newsletter__form-validate" id="warnings"></p>
+            </div>
+            <input type="email" name="email" id="email" placeholder="email@company.com">
+            <button id="btnSend" type="submit">Subscribe to monthly newsletter</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--*MODAL SUBMIT SUCCESS-->
+
+    <div class="modal__container" id="modalContainer"></div>
+
+  </section>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
