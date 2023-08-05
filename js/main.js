@@ -37,7 +37,7 @@ function createModal() {
   modalContent.innerHTML = `
   <img class="modal__content__image" src="./assets/images/icon-success.svg" alt="icon-success">
   <h2 class="modal__content__title">Thanks for subscribing!</h2>
-  <p class="modal__content__paragraph">A confirmation email has been sent to <span>ash@loremcompany.com</span>.
+  <p class="modal__content__paragraph">A confirmation email has been sent to <span>${email.value}</span>.
   Please open it and click the button inside to confirm your subscription. 
   `;
   modalContainer.append(modalContent);
