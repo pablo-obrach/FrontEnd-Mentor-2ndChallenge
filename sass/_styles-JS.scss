@@ -1,0 +1,13 @@
+@use "variables";
+
+.warnings-colors {
+  border: 1px solid variables.$tomato;
+  background: variables.$tomato-transparent;
+  color: variables.$tomato;
+}
+
+.place-holder {
+  &::placeholder {
+    color: variables.$tomato;
+  }
+}

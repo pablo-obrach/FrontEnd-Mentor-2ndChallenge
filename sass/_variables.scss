@@ -1,0 +1,19 @@
+//*Reset
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//*fonts and extras
+$roboto: "Roboto", sans-serif;
+$roboto-400: 400;
+$roboto-700: 700;
+$paragraph-size: 16px;
+
+//*Colors
+$tomato: hsl(4, 100%, 67%);
+$tomato-transparent: hsla(4, 100%, 67%, 0.2);
+$Dark-Slate-Grey: hsl(234, 29%, 20%);
+$Charcoal-Grey: hsl(235, 18%, 26%);
+$Grey: hsl(231, 7%, 60%);
+$White: hsl(0, 0%, 100%);
